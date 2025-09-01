@@ -1,0 +1,1 @@
+SELECT winner, COUNT(*) as wins FROM matches GROUP BY winner ORDER BY wins DESC;
